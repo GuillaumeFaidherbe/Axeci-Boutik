@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2020-11-21 16:25:31
+<?php /* Smarty version Smarty-3.1.19, created on 2020-11-22 22:25:19
          compiled from "C:\xampp\htdocs\prestashop\themes\default-bootstrap\modules\blocksearch\blocksearch-top.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19626275935fb9316bb7d8b4-71105718%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18474671075fbad73f7c10c7-33381789%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19626275935fb9316bb7d8b4-71105718',
+  'nocache_hash' => '18474671075fbad73f7c10c7-33381789',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fb9316bb9f3b7_29222845',
+  'unifunc' => 'content_5fbad73f876b27_37438973',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fb9316bb9f3b7_29222845')) {function content_5fb9316bb9f3b7_29222845($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fbad73f876b27_37438973')) {function content_5fbad73f876b27_37438973($_smarty_tpl) {?>
 <!-- Block search module TOP -->
 <div id="search_block_top" class="col-sm-4 clearfix">
 	<form id="searchbox" method="get" action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('search',null,null,null,false,null,true), ENT_QUOTES, 'UTF-8', true);?>

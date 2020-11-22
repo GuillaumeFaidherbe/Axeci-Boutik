@@ -1543,7 +1543,7 @@
   ),
   'Cart' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cart/cart.php',
     'type' => 'class',
     'override' => false,
   ),

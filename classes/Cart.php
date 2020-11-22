@@ -3068,8 +3068,9 @@ class CartCore extends ObjectModel
                     $total_weight += $product['weight'] * $product['cart_quantity'];
                 } else {
                     $total_weight += $product['weight_attribute'] * $product['cart_quantity'];
-                }
+                }    
             }
+
             return $total_weight;
         }
 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2020-11-21 16:31:58
+<?php /* Smarty version Smarty-3.1.19, created on 2020-11-22 22:26:54
          compiled from "C:\xampp\htdocs\prestashop\admin819xmgksp\themes\default\template\controllers\products\helpers\form\form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4315203535fb932ee474317-37255421%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1566105215fbad79eb27cc1-73988817%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4315203535fb932ee474317-37255421',
+  'nocache_hash' => '1566105215fbad79eb27cc1-73988817',
   'function' => 
   array (
   ),
@@ -79,9 +79,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fb932ee730453_41012342',
+  'unifunc' => 'content_5fbad79f707653_76466542',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fb932ee730453_41012342')) {function content_5fb932ee730453_41012342($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\prestashop\\tools\\smarty\\plugins\\function.counter.php';
+<?php if ($_valid && !is_callable('content_5fbad79f707653_76466542')) {function content_5fbad79f707653_76466542($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\prestashop\\tools\\smarty\\plugins\\function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -555,9 +555,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2020-11-21 16:31:58
+<?php /* Smarty version Smarty-3.1.19, created on 2020-11-22 22:26:55
          compiled from "C:\xampp\htdocs\prestashop\admin819xmgksp\themes\default\template\helpers\form\form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5fb932ee682923_08601468')) {function content_5fb932ee682923_08601468($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fbad79f3c20c4_59816795')) {function content_5fbad79f3c20c4_59816795($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">
