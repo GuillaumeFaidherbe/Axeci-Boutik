@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2020-11-23 12:07:28
+<?php /* Smarty version Smarty-3.1.19, created on 2020-11-23 14:21:01
          compiled from "C:\xampp\htdocs\prestashop\override\controllers\admin\templates\products\informations.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17352786885fbb97f0d39983-14701126%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3323820315fbbb73d51cb88-10256423%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0cf6385e39e49bfbc79e4bdd81816ac3d31c105c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop\\override\\controllers\\admin\\templates\\products\\informations.tpl',
-      1 => 1606129630,
+      1 => 1606137519,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17352786885fbb97f0d39983-14701126',
+  'nocache_hash' => '3323820315fbbb73d51cb88-10256423',
   'function' => 
   array (
   ),
@@ -44,9 +44,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fbb97f0e2bce7_75811741',
+  'unifunc' => 'content_5fbbb73d6e2245_82418783',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fbb97f0e2bce7_75811741')) {function content_5fbb97f0e2bce7_75811741($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fbbb73d6e2245_82418783')) {function content_5fbbb73d6e2245_82418783($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['check_product_association_ajax']->value) {?>
 	<?php $_smarty_tpl->tpl_vars['class_input_ajax'] = new Smarty_variable('check_product_name ', null, 0);?>
 <?php } else { ?>
@@ -197,11 +197,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</div>
 
 	<div class="form-group">
-		<div class="col-lg-1"><span><?php echo $_smarty_tpl->getSubTemplate ("controllers/products/multishop/checkbox.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('field'=>"panierplus",'only_checkbox'=>"true",'type'=>"default"), 0);?>
+		<div class="col-lg-1"><span class="pull-right"><?php echo $_smarty_tpl->getSubTemplate ("controllers/products/multishop/checkbox.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('field'=>"panierplus",'type'=>"default",'multilang'=>"true"), 0);?>
 </span></div>
 			<label for="panierplus">
-							<input type="checkbox" name="panierplus" id="panierplus" value="1" 
-							<?php if ($_smarty_tpl->tpl_vars['product']->value->panierplus) {?>selected="selected"<?php }?> >
+							<input type="checkbox" name="panierplus" id="panierplus" value="1" <?php if ($_smarty_tpl->tpl_vars['product']->value->panierplus[1]=='1') {?>checked="checked"<?php }?> >
 							<?php echo smartyTranslate(array('s'=>'Panier plus'),$_smarty_tpl);?>
 </label>
 

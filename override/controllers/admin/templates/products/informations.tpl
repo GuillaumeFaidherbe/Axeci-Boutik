@@ -149,10 +149,9 @@
 	</div>
 
 	<div class="form-group">
-		<div class="col-lg-1"><span>{include file="controllers/products/multishop/checkbox.tpl" field="panierplus" only_checkbox="true" type="default" multilang="true"}</span></div>
+		<div class="col-lg-1"><span class="pull-right">{include file="controllers/products/multishop/checkbox.tpl" field="panierplus" type="default" multilang="true"}</span></div>
 			<label for="panierplus">
-							<input type="checkbox" name="panierplus" id="panierplus" value="1" 
-							{if $product->panierplus}selected="selected"{/if} >
+							<input type="checkbox" name="panierplus" id="panierplus" value="1" {if $product->panierplus[1] == '1'}checked="checked"{/if} >
 							{l s='Panier plus'}</label>
 
 	</div>
