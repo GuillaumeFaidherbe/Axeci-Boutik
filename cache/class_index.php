@@ -805,7 +805,7 @@
   ),
   'AdminProductsController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminProductsController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2869,7 +2869,7 @@
   ),
   'Order' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/Order.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2911,7 +2911,7 @@
   ),
   'OrderController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/OrderController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3355,7 +3355,7 @@
   ),
   'Product' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/product/product.php',
     'type' => 'class',
     'override' => false,
   ),

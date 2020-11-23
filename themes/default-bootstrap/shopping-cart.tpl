@@ -32,7 +32,10 @@
 		</span>
 	{/if}
 </h1>
-
+{if isset($smarty.get.error)}
+<h1>Votre commande ne contient que des articles “Panier plus”. Veuillez ajouter d’autres articles dans votre panier
+afin de poursuivre vos achats.</h1>
+{/if}
 {if isset($account_created)}
 	<p class="alert alert-success">
 		{l s='Your account has been created.'}

@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1117065855fbad745224ee7-17823642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11185287765fbb9600590765-30253572%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1117065855fbad745224ee7-17823642',
+  'nocache_hash' => '11185287765fbb9600590765-30253572',
   'variables' => 
   array (
     'link' => 0,
@@ -20,10 +20,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fbad7456bcca3_01728861',
+  'unifunc' => 'content_5fbb96007c93b5_77674333',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fbad7456bcca3_01728861')) {function content_5fbad7456bcca3_01728861($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fbb96007c93b5_77674333')) {function content_5fbb96007c93b5_77674333($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://localhost/prestashop/mon-compte" title="Gérer mon compte client" rel="nofollow">Mon compte</a></h4>
