@@ -302,6 +302,7 @@ class OrderControllerCore extends ParentOrderController
         $invoice = new Address((int)$this->context->cart->id_address_invoice);
 
         if ($delivery->deleted || $invoice->deleted) {
+            die();
             if ($delivery->deleted) {
                 unset($this->context->cart->id_address_delivery);
             }
