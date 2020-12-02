@@ -2,6 +2,7 @@
 
 class Cart extends CartCore
 {
+    public const IDTRANSPORTEUR = 2;
 	/**
      * Return package shipping cost
      *
@@ -256,8 +257,8 @@ class Cart extends CartCore
             }
         } else {
             if ($shipping_method == Carrier::SHIPPING_METHOD_WEIGHT) {
-            	if(self::$_carriers[$id_carrier]->id_reference == 2 || self::$_carriers[$id_carrier]->name == "Colissimo" ){
-            		$shipping_cost += $carrier->getDeliveryPriceByWeight($this->getTotalWeight($product_list, true), $id_zone);
+            	if(self::$_carriers[$id_carrier]->id_reference == self::IDTRANSPORTEUR){
+            		$shipping_cost += $carrier->getDeliveryPriceByWeight($this->getTotalWeight($product_list) * 1.10 , $id_zone);
             	}else{
             		$shipping_cost += $carrier->getDeliveryPriceByWeight($this->getTotalWeight($product_list), $id_zone);
             	}
@@ -329,57 +330,6 @@ class Cart extends CartCore
         Cache::store($cache_id, $shipping_cost);
 
         return $shipping_cost;
-    }
-
-    /**
-    * Return cart weight
-    * @return float Cart weight
-    */
-    public function getTotalWeight($products = null, $isColissimo = false)
-    {
-        if (!is_null($products)) {
-            $total_weight = 0;
-            foreach ($products as $product) {
-                if (!isset($product['weight_attribute']) || is_null($product['weight_attribute'])) {
-                    $total_weight += $product['weight'] * $product['cart_quantity'];
-                } else {
-                    $total_weight += $product['weight_attribute'] * $product['cart_quantity'];
-                }    
-            }
-            if($isColissimo == true){
-            	return $total_weight * 1.10;
-
-            }else{
-            	return $total_weight;
-            }
-
-            
-        }
-
-        if (!isset(self::$_totalWeight[$this->id])) {
-            if (Combination::isFeatureActive()) {
-                $weight_product_with_attribute = Db::getInstance()->getValue('
-				SELECT SUM((p.`weight` + pa.`weight`) * cp.`quantity`) as nb
-				FROM `'._DB_PREFIX_.'cart_product` cp
-				LEFT JOIN `'._DB_PREFIX_.'product` p ON (cp.`id_product` = p.`id_product`)
-				LEFT JOIN `'._DB_PREFIX_.'product_attribute` pa ON (cp.`id_product_attribute` = pa.`id_product_attribute`)
-				WHERE (cp.`id_product_attribute` IS NOT NULL AND cp.`id_product_attribute` != 0)
-				AND cp.`id_cart` = '.(int)$this->id);
-            } else {
-                $weight_product_with_attribute = 0;
-            }
-
-            $weight_product_without_attribute = Db::getInstance()->getValue('
-			SELECT SUM(p.`weight` * cp.`quantity`) as nb
-			FROM `'._DB_PREFIX_.'cart_product` cp
-			LEFT JOIN `'._DB_PREFIX_.'product` p ON (cp.`id_product` = p.`id_product`)
-			WHERE (cp.`id_product_attribute` IS NULL OR cp.`id_product_attribute` = 0)
-			AND cp.`id_cart` = '.(int)$this->id);
-
-            self::$_totalWeight[$this->id] = round((float)$weight_product_with_attribute + (float)$weight_product_without_attribute, 6);
-        }
-
-        return self::$_totalWeight[$this->id];
     }
 
     public function isNotOnlyPanierPlus()

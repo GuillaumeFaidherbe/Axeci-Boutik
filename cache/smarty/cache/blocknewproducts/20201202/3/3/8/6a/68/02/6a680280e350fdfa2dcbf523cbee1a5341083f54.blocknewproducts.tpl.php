@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:12341383385fc76e144a7519-27914700%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17538938195fc775786d03f3-34224174%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12341383385fc76e144a7519-27914700',
+  'nocache_hash' => '17538938195fc775786d03f3-34224174',
   'variables' => 
   array (
     'link' => 0,
@@ -21,10 +21,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fc76e14679476_95083972',
+  'unifunc' => 'content_5fc77578845104_87889587',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fc76e14679476_95083972')) {function content_5fc76e14679476_95083972($_smarty_tpl) {?><!-- MODULE Block new products -->
+<?php if ($_valid && !is_callable('content_5fc77578845104_87889587')) {function content_5fc77578845104_87889587($_smarty_tpl) {?><!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
 	<h4 class="title_block">
     	<a href="http://localhost/prestashop/nouveaux-produits" title="Nouveaux produits">Nouveaux produits</a>

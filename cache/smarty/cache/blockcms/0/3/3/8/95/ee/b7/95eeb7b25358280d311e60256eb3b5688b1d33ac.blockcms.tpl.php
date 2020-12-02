@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:13273769605fc76ab4daa176-22176070%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9815809625fc77577b9add0-35278554%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13273769605fc76ab4daa176-22176070',
+  'nocache_hash' => '9815809625fc77577b9add0-35278554',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fc76ed48dba05_53333124',
+  'unifunc' => 'content_5fc776457a8682_83403528',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fc76ed48dba05_53333124')) {function content_5fc76ed48dba05_53333124($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fc776457a8682_83403528')) {function content_5fc776457a8682_83403528($_smarty_tpl) {?>
 	<!-- Block CMS module -->
 			<section id="informations_block_left_1" class="block informations_block_left">
 			<p class="title_block">
@@ -55,6 +55,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							</a>
 						</li>
 									</ul>
+			</div>
+		</section>
+			<section id="informations_block_left_4" class="block informations_block_left">
+			<p class="title_block">
+				<a href="http://localhost/prestashop/content/category/1-accueil">
+					test				</a>
+			</p>
+			<div class="block_content list-block">
+				<ul>
+																							<li>
+								<a href="http://localhost/prestashop/content/8-bloc-test" title="bloc test">
+									bloc test
+								</a>
+							</li>
+																				</ul>
 			</div>
 		</section>
 		<!-- /Block CMS module -->

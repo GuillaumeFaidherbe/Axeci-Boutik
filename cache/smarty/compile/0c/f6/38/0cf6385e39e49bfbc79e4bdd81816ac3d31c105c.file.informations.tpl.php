@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2020-12-02 11:21:16
+<?php /* Smarty version Smarty-3.1.19, created on 2020-12-02 12:24:44
          compiled from "C:\xampp\htdocs\prestashop\override\controllers\admin\templates\products\informations.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6718678145fc76a9c2936e6-48456387%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5313974675fc7797c2b19d6-95339428%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6718678145fc76a9c2936e6-48456387',
+  'nocache_hash' => '5313974675fc7797c2b19d6-95339428',
   'function' => 
   array (
   ),
@@ -44,9 +44,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fc76a9c3a42e8_02178028',
+  'unifunc' => 'content_5fc7797c35d175_89837237',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fc76a9c3a42e8_02178028')) {function content_5fc76a9c3a42e8_02178028($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fc7797c35d175_89837237')) {function content_5fc7797c35d175_89837237($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['check_product_association_ajax']->value) {?>
 	<?php $_smarty_tpl->tpl_vars['class_input_ajax'] = new Smarty_variable('check_product_name ', null, 0);?>
 <?php } else { ?>
