@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2020-11-23 14:20:20
+<?php /* Smarty version Smarty-3.1.19, created on 2020-12-02 11:19:04
          compiled from "C:\xampp\htdocs\prestashop\admin819xmgksp\themes\default\template\modal.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7571481495fbbb7147a7271-27728510%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9350884365fc76a185125d7-39694931%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7571481495fbbb7147a7271-27728510',
+  'nocache_hash' => '9350884365fc76a185125d7-39694931',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fbbb7147d9ec5_87973603',
+  'unifunc' => 'content_5fc76a1851c641_88951446',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fbbb7147d9ec5_87973603')) {function content_5fbbb7147d9ec5_87973603($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fc76a1851c641_88951446')) {function content_5fc76a1851c641_88951446($_smarty_tpl) {?>
 <div class="modal fade" id="<?php echo $_smarty_tpl->tpl_vars['modal_id']->value;?>
 " tabindex="-1">
 	<div class="modal-dialog <?php if (isset($_smarty_tpl->tpl_vars['modal_class']->value)) {?><?php echo $_smarty_tpl->tpl_vars['modal_class']->value;?>

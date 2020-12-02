@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:11185287765fbb9600590765-30253572%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12971500495fc76ab5337253-23198780%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,21 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11185287765fbb9600590765-30253572',
-  'variables' => 
-  array (
-    'link' => 0,
-    'returnAllowed' => 0,
-    'voucherAllowed' => 0,
-    'HOOK_BLOCK_MY_ACCOUNT' => 0,
-    'is_logged' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '12971500495fc76ab5337253-23198780',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fbb96007c93b5_77674333',
+  'unifunc' => 'content_5fc76df61764a2_82946882',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fbb96007c93b5_77674333')) {function content_5fbb96007c93b5_77674333($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fc76df61764a2_82946882')) {function content_5fc76df61764a2_82946882($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://localhost/prestashop/mon-compte" title="Gérer mon compte client" rel="nofollow">Mon compte</a></h4>
@@ -33,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<li><a href="http://localhost/prestashop/avoirs" title="Mes avoirs" rel="nofollow">Mes avoirs</a></li>
 			<li><a href="http://localhost/prestashop/adresses" title="Mes adresses" rel="nofollow">Mes adresses</a></li>
 			<li><a href="http://localhost/prestashop/identite" title="Gérer mes informations personnelles" rel="nofollow">Mes informations personnelles</a></li>
-			<li><a href="http://localhost/prestashop/reduction" title="Mes bons de réduction" rel="nofollow">Mes bons de réduction</a></li>			
+						
             <li><a href="http://localhost/prestashop/?mylogout" title="Déconnexion" rel="nofollow">Déconnexion</a></li>		</ul>
 	</div>
 </section>

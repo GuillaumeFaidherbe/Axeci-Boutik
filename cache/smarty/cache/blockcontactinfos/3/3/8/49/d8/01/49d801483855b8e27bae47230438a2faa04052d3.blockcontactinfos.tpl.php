@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:600237335fbb96008ee3e7-95025517%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17169839895fc76ab5503903-33497205%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,20 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '600237335fbb96008ee3e7-95025517',
-  'variables' => 
-  array (
-    'blockcontactinfos_company' => 0,
-    'blockcontactinfos_address' => 0,
-    'blockcontactinfos_phone' => 0,
-    'blockcontactinfos_email' => 0,
-  ),
-  'has_nocache_code' => false,
+  'nocache_hash' => '17169839895fc76ab5503903-33497205',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5fbb9600a2e6c5_25032602',
+  'unifunc' => 'content_5fc76df61f4b47_47689817',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fbb9600a2e6c5_25032602')) {function content_5fbb9600a2e6c5_25032602($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5fc76df61f4b47_47689817')) {function content_5fc76df61f4b47_47689817($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
 	<div>
